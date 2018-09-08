@@ -8,13 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		383C0BE1213D16EB00D70F08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0BE0213D16EB00D70F08 /* AppDelegate.m */; };
-		383C0BE4213D16EC00D70F08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0BE3213D16EC00D70F08 /* ViewController.m */; };
 		383C0BE7213D16EC00D70F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383C0BE5213D16EC00D70F08 /* Main.storyboard */; };
 		383C0BE9213D16ED00D70F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383C0BE8213D16ED00D70F08 /* Assets.xcassets */; };
 		383C0BEC213D16ED00D70F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383C0BEA213D16ED00D70F08 /* LaunchScreen.storyboard */; };
 		383C0BEF213D16ED00D70F08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0BEE213D16ED00D70F08 /* main.m */; };
 		383C0BF9213D16ED00D70F08 /* KnightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0BF8213D16ED00D70F08 /* KnightTests.m */; };
 		383C0C04213D16ED00D70F08 /* KnightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0C03213D16ED00D70F08 /* KnightUITests.m */; };
+		383C0C19213D1AD900D70F08 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0C18213D1AD900D70F08 /* Weapon.m */; };
+		383C0C20213D1B5900D70F08 /* Boots.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0C1F213D1B5900D70F08 /* Boots.m */; };
+		383C0C23213D1B6400D70F08 /* Chest.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0C22213D1B6400D70F08 /* Chest.m */; };
+		383C0C26213D1B7200D70F08 /* Helmet.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0C25213D1B7200D70F08 /* Helmet.m */; };
+		383C0C29213D1B7F00D70F08 /* Pants.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0C28213D1B7F00D70F08 /* Pants.m */; };
+		383C0C31213D357300D70F08 /* Forge.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0C30213D357300D70F08 /* Forge.m */; };
+		383C0C36213D3C6400D70F08 /* KnightInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0C35213D3C6400D70F08 /* KnightInfoController.m */; };
+		383C0C39213D856500D70F08 /* Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C0C38213D856500D70F08 /* Armor.m */; };
+		385A6315213D8B88007744A6 /* Knight.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A6314213D8B88007744A6 /* Knight.m */; };
+		385A6326213DB5A0007744A6 /* KnightInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A6324213DB5A0007744A6 /* KnightInfoCell.m */; };
+		385A6327213DB5A0007744A6 /* KnightInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A6325213DB5A0007744A6 /* KnightInfoCell.xib */; };
+		385A632A213DCAA6007744A6 /* ChoseListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A6329213DCAA6007744A6 /* ChoseListController.m */; };
+		385A6331213E814E007744A6 /* ChoseListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A632F213E814E007744A6 /* ChoseListCell.m */; };
+		385A6332213E814E007744A6 /* ChoseListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A6330213E814E007744A6 /* ChoseListCell.xib */; };
+		385A6338213E9A65007744A6 /* ChoseKnightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A6337213E9A65007744A6 /* ChoseKnightController.m */; };
+		385A633E213E9B22007744A6 /* ChoseKnightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A633C213E9B22007744A6 /* ChoseKnightCell.m */; };
+		385A633F213E9B22007744A6 /* ChoseKnightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 385A633D213E9B22007744A6 /* ChoseKnightCell.xib */; };
+		385A634221400457007744A6 /* Garrison.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A634121400457007744A6 /* Garrison.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +55,6 @@
 		383C0BDC213D16EB00D70F08 /* Knight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		383C0BDF213D16EB00D70F08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		383C0BE0213D16EB00D70F08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		383C0BE2213D16EC00D70F08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		383C0BE3213D16EC00D70F08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		383C0BE6213D16EC00D70F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		383C0BE8213D16ED00D70F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		383C0BEB213D16ED00D70F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,45 @@
 		383C0BFF213D16ED00D70F08 /* KnightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		383C0C03213D16ED00D70F08 /* KnightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnightUITests.m; sourceTree = "<group>"; };
 		383C0C05213D16ED00D70F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383C0C17213D1AD900D70F08 /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		383C0C18213D1AD900D70F08 /* Weapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		383C0C1E213D1B5900D70F08 /* Boots.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boots.h; sourceTree = "<group>"; };
+		383C0C1F213D1B5900D70F08 /* Boots.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boots.m; sourceTree = "<group>"; };
+		383C0C21213D1B6400D70F08 /* Chest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chest.h; sourceTree = "<group>"; };
+		383C0C22213D1B6400D70F08 /* Chest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chest.m; sourceTree = "<group>"; };
+		383C0C24213D1B7200D70F08 /* Helmet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helmet.h; sourceTree = "<group>"; };
+		383C0C25213D1B7200D70F08 /* Helmet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helmet.m; sourceTree = "<group>"; };
+		383C0C27213D1B7F00D70F08 /* Pants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pants.h; sourceTree = "<group>"; };
+		383C0C28213D1B7F00D70F08 /* Pants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pants.m; sourceTree = "<group>"; };
+		383C0C2F213D357300D70F08 /* Forge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Forge.h; sourceTree = "<group>"; };
+		383C0C30213D357300D70F08 /* Forge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Forge.m; sourceTree = "<group>"; };
+		383C0C34213D3C6400D70F08 /* KnightInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnightInfoController.h; sourceTree = "<group>"; };
+		383C0C35213D3C6400D70F08 /* KnightInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnightInfoController.m; sourceTree = "<group>"; };
+		383C0C37213D856500D70F08 /* Armor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		383C0C38213D856500D70F08 /* Armor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Armor.m; sourceTree = "<group>"; };
+		383C0C3A213D862500D70F08 /* PantsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PantsProtocol.h; sourceTree = "<group>"; };
+		383C0C3B213D86B200D70F08 /* HelmetProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelmetProtocol.h; sourceTree = "<group>"; };
+		383C0C3C213D86EF00D70F08 /* ChestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChestProtocol.h; sourceTree = "<group>"; };
+		383C0C3D213D872500D70F08 /* BootsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BootsProtocol.h; sourceTree = "<group>"; };
+		383C0C3E213D876B00D70F08 /* ArmorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArmorProtocol.h; sourceTree = "<group>"; };
+		383C0C3F213D879800D70F08 /* WeaponProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeaponProtocol.h; sourceTree = "<group>"; };
+		385A6313213D8B88007744A6 /* Knight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Knight.h; sourceTree = "<group>"; };
+		385A6314213D8B88007744A6 /* Knight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Knight.m; sourceTree = "<group>"; };
+		385A6323213DB5A0007744A6 /* KnightInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnightInfoCell.h; sourceTree = "<group>"; };
+		385A6324213DB5A0007744A6 /* KnightInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnightInfoCell.m; sourceTree = "<group>"; };
+		385A6325213DB5A0007744A6 /* KnightInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KnightInfoCell.xib; sourceTree = "<group>"; };
+		385A6328213DCAA6007744A6 /* ChoseListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChoseListController.h; sourceTree = "<group>"; };
+		385A6329213DCAA6007744A6 /* ChoseListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoseListController.m; sourceTree = "<group>"; };
+		385A632E213E814E007744A6 /* ChoseListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChoseListCell.h; sourceTree = "<group>"; };
+		385A632F213E814E007744A6 /* ChoseListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoseListCell.m; sourceTree = "<group>"; };
+		385A6330213E814E007744A6 /* ChoseListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoseListCell.xib; sourceTree = "<group>"; };
+		385A6336213E9A65007744A6 /* ChoseKnightController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChoseKnightController.h; sourceTree = "<group>"; };
+		385A6337213E9A65007744A6 /* ChoseKnightController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoseKnightController.m; sourceTree = "<group>"; };
+		385A633B213E9B22007744A6 /* ChoseKnightCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChoseKnightCell.h; sourceTree = "<group>"; };
+		385A633C213E9B22007744A6 /* ChoseKnightCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoseKnightCell.m; sourceTree = "<group>"; };
+		385A633D213E9B22007744A6 /* ChoseKnightCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoseKnightCell.xib; sourceTree = "<group>"; };
+		385A634021400457007744A6 /* Garrison.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Garrison.h; sourceTree = "<group>"; };
+		385A634121400457007744A6 /* Garrison.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Garrison.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +155,13 @@
 		383C0BDE213D16EB00D70F08 /* Knight */ = {
 			isa = PBXGroup;
 			children = (
+				383C0C2D213D353D00D70F08 /* Factories */,
+				383C0C11213D176800D70F08 /* Models */,
+				385A6334213E9A0E007744A6 /* ChoseKnightScreen */,
+				385A6316213DB244007744A6 /* ChoseListScreen */,
+				385A631C213DB383007744A6 /* KnightInfoScreen */,
 				383C0BDF213D16EB00D70F08 /* AppDelegate.h */,
 				383C0BE0213D16EB00D70F08 /* AppDelegate.m */,
-				383C0BE2213D16EC00D70F08 /* ViewController.h */,
-				383C0BE3213D16EC00D70F08 /* ViewController.m */,
 				383C0BE5213D16EC00D70F08 /* Main.storyboard */,
 				383C0BE8213D16ED00D70F08 /* Assets.xcassets */,
 				383C0BEA213D16ED00D70F08 /* LaunchScreen.storyboard */,
@@ -130,6 +187,224 @@
 				383C0C05213D16ED00D70F08 /* Info.plist */,
 			);
 			path = KnightUITests;
+			sourceTree = "<group>";
+		};
+		383C0C11213D176800D70F08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				385A6312213D8B2C007744A6 /* Knight */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		383C0C12213D1A5500D70F08 /* Armor */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C1B213D1B0400D70F08 /* Boots */,
+				383C0C1D213D1B4000D70F08 /* Chest */,
+				383C0C1A213D1AE600D70F08 /* Helmet */,
+				383C0C1C213D1B1800D70F08 /* Pants */,
+				383C0C37213D856500D70F08 /* Armor.h */,
+				383C0C38213D856500D70F08 /* Armor.m */,
+				383C0C3E213D876B00D70F08 /* ArmorProtocol.h */,
+			);
+			path = Armor;
+			sourceTree = "<group>";
+		};
+		383C0C16213D1AC700D70F08 /* Weapon */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C17213D1AD900D70F08 /* Weapon.h */,
+				383C0C18213D1AD900D70F08 /* Weapon.m */,
+				383C0C3F213D879800D70F08 /* WeaponProtocol.h */,
+			);
+			path = Weapon;
+			sourceTree = "<group>";
+		};
+		383C0C1A213D1AE600D70F08 /* Helmet */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C24213D1B7200D70F08 /* Helmet.h */,
+				383C0C25213D1B7200D70F08 /* Helmet.m */,
+				383C0C3B213D86B200D70F08 /* HelmetProtocol.h */,
+			);
+			path = Helmet;
+			sourceTree = "<group>";
+		};
+		383C0C1B213D1B0400D70F08 /* Boots */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C1E213D1B5900D70F08 /* Boots.h */,
+				383C0C1F213D1B5900D70F08 /* Boots.m */,
+				383C0C3D213D872500D70F08 /* BootsProtocol.h */,
+			);
+			path = Boots;
+			sourceTree = "<group>";
+		};
+		383C0C1C213D1B1800D70F08 /* Pants */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C27213D1B7F00D70F08 /* Pants.h */,
+				383C0C28213D1B7F00D70F08 /* Pants.m */,
+				383C0C3A213D862500D70F08 /* PantsProtocol.h */,
+			);
+			path = Pants;
+			sourceTree = "<group>";
+		};
+		383C0C1D213D1B4000D70F08 /* Chest */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C21213D1B6400D70F08 /* Chest.h */,
+				383C0C22213D1B6400D70F08 /* Chest.m */,
+				383C0C3C213D86EF00D70F08 /* ChestProtocol.h */,
+			);
+			path = Chest;
+			sourceTree = "<group>";
+		};
+		383C0C2D213D353D00D70F08 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C2E213D355300D70F08 /* Forge */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		383C0C2E213D355300D70F08 /* Forge */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C2F213D357300D70F08 /* Forge.h */,
+				383C0C30213D357300D70F08 /* Forge.m */,
+			);
+			path = Forge;
+			sourceTree = "<group>";
+		};
+		385A6312213D8B2C007744A6 /* Knight */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C12213D1A5500D70F08 /* Armor */,
+				383C0C16213D1AC700D70F08 /* Weapon */,
+				385A6313213D8B88007744A6 /* Knight.h */,
+				385A6314213D8B88007744A6 /* Knight.m */,
+			);
+			path = Knight;
+			sourceTree = "<group>";
+		};
+		385A6316213DB244007744A6 /* ChoseListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				385A639F2141050D007744A6 /* Views */,
+				385A6333213E83F4007744A6 /* ChoseListController */,
+			);
+			path = ChoseListScreen;
+			sourceTree = "<group>";
+		};
+		385A631C213DB383007744A6 /* KnightInfoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				385A6322213DB4B3007744A6 /* Assembly */,
+				385A631E213DB449007744A6 /* Views */,
+				385A631D213DB422007744A6 /* KnightInfoController */,
+			);
+			path = KnightInfoScreen;
+			sourceTree = "<group>";
+		};
+		385A631D213DB422007744A6 /* KnightInfoController */ = {
+			isa = PBXGroup;
+			children = (
+				383C0C34213D3C6400D70F08 /* KnightInfoController.h */,
+				383C0C35213D3C6400D70F08 /* KnightInfoController.m */,
+			);
+			path = KnightInfoController;
+			sourceTree = "<group>";
+		};
+		385A631E213DB449007744A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				385A631F213DB44E007744A6 /* KnightInfoCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		385A631F213DB44E007744A6 /* KnightInfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				385A6323213DB5A0007744A6 /* KnightInfoCell.h */,
+				385A6324213DB5A0007744A6 /* KnightInfoCell.m */,
+				385A6325213DB5A0007744A6 /* KnightInfoCell.xib */,
+			);
+			path = KnightInfoCell;
+			sourceTree = "<group>";
+		};
+		385A6322213DB4B3007744A6 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				385A634021400457007744A6 /* Garrison.h */,
+				385A634121400457007744A6 /* Garrison.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		385A632D213E8115007744A6 /* ChoseListCell */ = {
+			isa = PBXGroup;
+			children = (
+				385A632E213E814E007744A6 /* ChoseListCell.h */,
+				385A632F213E814E007744A6 /* ChoseListCell.m */,
+				385A6330213E814E007744A6 /* ChoseListCell.xib */,
+			);
+			path = ChoseListCell;
+			sourceTree = "<group>";
+		};
+		385A6333213E83F4007744A6 /* ChoseListController */ = {
+			isa = PBXGroup;
+			children = (
+				385A6328213DCAA6007744A6 /* ChoseListController.h */,
+				385A6329213DCAA6007744A6 /* ChoseListController.m */,
+			);
+			path = ChoseListController;
+			sourceTree = "<group>";
+		};
+		385A6334213E9A0E007744A6 /* ChoseKnightScreen */ = {
+			isa = PBXGroup;
+			children = (
+				385A63A021410521007744A6 /* Views */,
+				385A6335213E9A2B007744A6 /* ChoseKnightController */,
+			);
+			path = ChoseKnightScreen;
+			sourceTree = "<group>";
+		};
+		385A6335213E9A2B007744A6 /* ChoseKnightController */ = {
+			isa = PBXGroup;
+			children = (
+				385A6336213E9A65007744A6 /* ChoseKnightController.h */,
+				385A6337213E9A65007744A6 /* ChoseKnightController.m */,
+			);
+			path = ChoseKnightController;
+			sourceTree = "<group>";
+		};
+		385A633A213E9AEC007744A6 /* ChoseKnightCell */ = {
+			isa = PBXGroup;
+			children = (
+				385A633B213E9B22007744A6 /* ChoseKnightCell.h */,
+				385A633C213E9B22007744A6 /* ChoseKnightCell.m */,
+				385A633D213E9B22007744A6 /* ChoseKnightCell.xib */,
+			);
+			path = ChoseKnightCell;
+			sourceTree = "<group>";
+		};
+		385A639F2141050D007744A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				385A632D213E8115007744A6 /* ChoseListCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		385A63A021410521007744A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				385A633A213E9AEC007744A6 /* ChoseKnightCell */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +510,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385A6327213DB5A0007744A6 /* KnightInfoCell.xib in Resources */,
+				385A633F213E9B22007744A6 /* ChoseKnightCell.xib in Resources */,
 				383C0BEC213D16ED00D70F08 /* LaunchScreen.storyboard in Resources */,
 				383C0BE9213D16ED00D70F08 /* Assets.xcassets in Resources */,
+				385A6332213E814E007744A6 /* ChoseListCell.xib in Resources */,
 				383C0BE7213D16EC00D70F08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +540,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383C0BE4213D16EC00D70F08 /* ViewController.m in Sources */,
+				385A634221400457007744A6 /* Garrison.m in Sources */,
+				385A6326213DB5A0007744A6 /* KnightInfoCell.m in Sources */,
 				383C0BEF213D16ED00D70F08 /* main.m in Sources */,
+				385A632A213DCAA6007744A6 /* ChoseListController.m in Sources */,
+				385A633E213E9B22007744A6 /* ChoseKnightCell.m in Sources */,
+				383C0C39213D856500D70F08 /* Armor.m in Sources */,
+				383C0C26213D1B7200D70F08 /* Helmet.m in Sources */,
+				383C0C19213D1AD900D70F08 /* Weapon.m in Sources */,
+				383C0C20213D1B5900D70F08 /* Boots.m in Sources */,
 				383C0BE1213D16EB00D70F08 /* AppDelegate.m in Sources */,
+				383C0C31213D357300D70F08 /* Forge.m in Sources */,
+				385A6315213D8B88007744A6 /* Knight.m in Sources */,
+				383C0C29213D1B7F00D70F08 /* Pants.m in Sources */,
+				383C0C36213D3C6400D70F08 /* KnightInfoController.m in Sources */,
+				385A6331213E814E007744A6 /* ChoseListCell.m in Sources */,
+				383C0C23213D1B6400D70F08 /* Chest.m in Sources */,
+				385A6338213E9A65007744A6 /* ChoseKnightController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
